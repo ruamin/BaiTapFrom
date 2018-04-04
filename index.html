@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Huyền Trang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="row">
+        <br />
+        <br />
+        <br />
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row">
+                <form name="frmdn">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            (*)Tên của bạn<br />
+                            <input type="text" class="form-control" id="name" placeholder="Enter name">
+                            <p hidden id="err_name" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-group">
+                            (*)Email<br />
+                            <input type="text" class="form-control" id="Email" placeholder="Enter email">
+                            <p hidden id="err_email" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-group">
+                            (*)Mật Khẩu<br />
+                            <input type="password" class="form-control" id="Password" placeholder="Password">
+                            <p hidden id="err_pass" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-group">
+                            (*)Nhập lại mật khẩu<br />
+                            <input type="password" class="form-control" id="RePassword" placeholder="RePassword">
+                            <p hidden id="err_repass" style="color:red;padding-left:12px"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            Tên Doanh Nghiệp<br />
+                            <input type="text" class="form-control" id="namebuss" placeholder="bussiness">
+                            <p hidden id="err_namebuss" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-group">
+                            (*)Số Điện Thoại<br />
+                            <input type="text" class="form-control" id="numberphone" placeholder="numberphone">
+                            <p hidden id="err_numb" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-group">
+                            (*)Địa Chỉ<br />
+                            <input type="text" class="form-control" id="address" placeholder="addresss">
+                            <p hidden id="err_address" style="color:red;padding-left:12px"></p>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="Check">
+                            Tôi đồng ý với <span>quy định bảo mật</span> và<span>chính sách bảo mật</span><br />
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-success" id="btnSubmit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <script src="js/validate.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+</html>
